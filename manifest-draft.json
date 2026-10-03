@@ -1,0 +1,40 @@
+{
+  "id": "tiinyengineer",
+  "name": "TiinyEngineer",
+  "pitch": "Know when infrastructure and scheduled jobs silently stop.",
+  "description": "TiinyEngineer watches endpoints, containers, backups, devices, and scheduled jobs, keeps an append-only incident ledger, and sends plain-language alerts with the first useful action.",
+  "version": "0.1.0",
+  "author": {"name": "TiinyEngineer contributors", "url": "https://github.com/webdevtodayjason/tiinyengineer"},
+  "license": "MIT",
+  "homepage": "https://github.com/webdevtodayjason/tiinyengineer",
+  "repo": "https://github.com/webdevtodayjason/tiinyengineer",
+  "screenshots": [
+    "https://raw.githubusercontent.com/webdevtodayjason/tiinyengineer/main/docs/screenshots/now-dark-1440.png",
+    "https://raw.githubusercontent.com/webdevtodayjason/tiinyengineer/main/docs/screenshots/now-light-1440.png",
+    "https://raw.githubusercontent.com/webdevtodayjason/tiinyengineer/main/docs/screenshots/registry-1440.png",
+    "https://raw.githubusercontent.com/webdevtodayjason/tiinyengineer/main/docs/screenshots/history-1440.png",
+    "https://raw.githubusercontent.com/webdevtodayjason/tiinyengineer/main/docs/screenshots/settings-1440.png",
+    "https://raw.githubusercontent.com/webdevtodayjason/tiinyengineer/main/docs/screenshots/now-dark-390.png",
+    "https://raw.githubusercontent.com/webdevtodayjason/tiinyengineer/main/docs/screenshots/now-light-390.png"
+  ],
+  "release": {
+    "url": "https://github.com/webdevtodayjason/tiinyengineer/releases/download/v0.1.0/tiinyengineer-0.1.0.tar.gz",
+    "sha256": "6828cfafaddceac0d8d02c1f7ecdc3ee2d3fd2d36dc6cec1c2918950d4ec4fca",
+    "size": 49934
+  },
+  "entry": {"python": "tiinyengineer", "args": ["--host", "0.0.0.0", "--port", "8787"]},
+  "requires": {"python": "3.11", "ports": [8787], "device": {"models": [], "npuUnits": 0}},
+  "permissions": ["files", "network"],
+  "tags": ["monitoring", "operations", "developer-tools"],
+  "verified": false,
+  "featured": false,
+  "addedAt": "2026-10-03",
+  "updatedAt": "2026-10-03",
+  "selfcheck": true,
+  "health": "/api/status",
+  "media": {"icon": "/assets/art/tiinyengineer-icon.png", "header": "/assets/art/tiinyengineer-header.webp"},
+  "links": {
+    "repo": "https://github.com/webdevtodayjason/tiinyengineer",
+    "homepage": "https://github.com/webdevtodayjason/tiinyengineer"
+  }
+}

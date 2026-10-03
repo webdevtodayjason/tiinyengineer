@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>TiinyEngineer</title>
+  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to the dashboard</a>
+  <header class="top">
+    <a class="brand" href="/now" data-route="now" aria-label="TiinyEngineer Now">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M5.5 12.5h3l1.8-4 3.4 8 1.8-4h3"/></svg>
+      <span>TiinyEngineer</span>
+    </a>
+    <nav aria-label="Dashboard">
+      <a href="/now" data-route="now">Now</a>
+      <a href="/registry" data-route="registry">Registry</a>
+      <a href="/rules" data-route="rules">Rules</a>
+      <a href="/reporting" data-route="reporting">Reporting</a>
+      <a href="/assignment" data-route="assignment">Assignment</a>
+      <a href="/timeline" data-route="timeline">Timeline</a>
+      <a href="/history" data-route="history">History</a>
+      <a href="/settings" data-route="settings">Settings</a>
+    </nav>
+    <button class="theme" type="button" aria-label="Use light theme" title="Change theme">Light</button>
+  </header>
+  <p class="watcher" id="watcher">Loading the plan...</p>
+  <main id="content" tabindex="-1"><div class="loading">Reading the latest checks...</div></main>
+  <noscript>Last ran is available after JavaScript loads. Add checks from the Registry.</noscript>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

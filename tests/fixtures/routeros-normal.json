@@ -1,0 +1,17 @@
+{
+  "/rest/system/resource": [{"cpu-load": "24", "uptime": "2d3h"}],
+  "/rest/system/health": [
+    {"name": "cpu-temperature", "value": "48"},
+    {"name": "board-temperature1", "value": "42"}
+  ],
+  "/rest/interface": [
+    {"name": "ether1", "type": "ether", "running": "true", "disabled": "false", "link-downs": "2", "rx-error": "10", "tx-error": "2", "rx-drop": "0", "tx-drop": "0"},
+    {"name": "ether2", "type": "ether", "running": "true", "disabled": "false", "link-downs": "0", "rx-error": "0", "tx-error": "0", "rx-drop": "0", "tx-drop": "0"}
+  ],
+  "/rest/ip/dhcp-server/lease": [
+    {"address": "10.0.0.10", "status": "bound"},
+    {"address": "10.0.0.11", "status": "bound"}
+  ],
+  "/rest/ip/pool": [{"name": "lan", "ranges": "10.0.0.10-10.0.0.19"}],
+  "/rest/log": [{"time": "10:00:00", "topics": "system,info", "message": "router started"}]
+}

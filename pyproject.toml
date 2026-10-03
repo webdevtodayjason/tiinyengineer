@@ -1,0 +1,17 @@
+[build-system]
+requires = []
+build-backend = "_custom_build"
+backend-path = ["."]
+
+[project]
+name = "tiinyengineer"
+version = "0.1.0"
+description = "A small, dependable operations watcher"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+tiinyengineer = "tiinyengineer.__main__:main"
+
+[tool.unittest]
+start-directory = "tests"

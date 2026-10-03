@@ -1,0 +1,10 @@
+{
+  "/rest/system/resource": [{"cpu-load": "24", "uptime": "2d3h"}],
+  "/rest/system/health": [{"name": "cpu-temperature", "value": "48"}],
+  "/rest/interface": [
+    {"name": "ether1", "type": "ether", "running": "true", "disabled": "false", "link-downs": "3", "rx-error": "10", "tx-error": "2", "rx-drop": "0", "tx-drop": "0"}
+  ],
+  "/rest/ip/dhcp-server/lease": [{"address": "10.0.0.10", "status": "bound"}],
+  "/rest/ip/pool": [{"name": "lan", "ranges": "10.0.0.10-10.0.0.19"}],
+  "/rest/log": [{"time": "10:01:00", "topics": "interface,info", "message": "ether1 link up"}]
+}
